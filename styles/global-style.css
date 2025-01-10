@@ -1,0 +1,8 @@
+/* Global styles:সকলের জন্য প্রযোজ্য  */
+body {
+    margin: 10px 160px;
+  }
+
+ body> *{
+  margin-bottom: 80px;
+}

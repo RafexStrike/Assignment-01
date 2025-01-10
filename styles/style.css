@@ -22,14 +22,16 @@
 /*কোন ফন্টের জন্য কোন ট্যাগ ইউজ করব:
    56px --> <h1>
    40px --> <h2>
-   24px --> <h3>
+   32px --> <h3>
+   24px --> <h4>
    20px --> <h5>
    18px --> <p>
    16px --> <small> */
-  /* figma তে মোট ৬ রকমের টেক্সট সাইজ দেখতে পাইতেছি | তাই এগুলো আগে থেকেই সেট করে রাখতেছি | */
+  /* figma তে মোট ৭ রকমের টেক্সট সাইজ দেখতে পাইতেছি | তাই এগুলো আগে থেকেই সেট করে রাখতেছি | */
   /* প্রতি rem সমান ১৬ পিক্সেল  */
 .text-56 { font-size: 3.5rem; }  /* 56px */
 .text-40 { font-size: 2.5rem; }  /* 40px */
+.text-32 { font-size: 2rem; }  /* 32px */
 .text-24 { font-size: 1.5rem; }  /* 24px */
 .text-20 { font-size: 1.25rem; } /* 20px */
 .text-18 { font-size: 1.125rem; } /* 18px */
@@ -44,4 +46,3 @@
 .heavy-yellow-bg{background-color: #FFC239;}
 .light-blue-bg{background-color: #81B4FC;}
 .heavy-blue-bg{background-color: #5490F5;}
-
