@@ -1,0 +1,47 @@
+/* fira-sans ফন্ট এর সকল স্টাইলিং একত্রে */
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+/*কোন ফন্টের জন্য কোন ট্যাগ ইউজ করব:
+   56px --> <h1>
+   40px --> <h2>
+   24px --> <h3>
+   20px --> <h5>
+   18px --> <p>
+   16px --> <small> */
+  /* figma তে মোট ৬ রকমের টেক্সট সাইজ দেখতে পাইতেছি | তাই এগুলো আগে থেকেই সেট করে রাখতেছি | */
+  /* প্রতি rem সমান ১৬ পিক্সেল  */
+.text-56 { font-size: 3.5rem; }  /* 56px */
+.text-40 { font-size: 2.5rem; }  /* 40px */
+.text-24 { font-size: 1.5rem; }  /* 24px */
+.text-20 { font-size: 1.25rem; } /* 20px */
+.text-18 { font-size: 1.125rem; } /* 18px */
+.text-16 { font-size: 1rem; }    /* 16px */
+
+/* ব্যাকগ্রাউন্ড কালার:
+মোটামুটি ৬ ধরনের ব্যাকগ্রাউন্ড কালার আছে।
+৩ টা গাঢ়, আর ৩ টা হালকা। */
+.light-green-bg{background-color: #C6E4D6;}
+.heavy-green-bg{background-color: #09A15C;}
+.light-yellow-bg{background-color: #F7EBCF;}
+.heavy-yellow-bg{background-color: #FFC239;}
+.light-blue-bg{background-color: #81B4FC;}
+.heavy-blue-bg{background-color: #5490F5;}
+
