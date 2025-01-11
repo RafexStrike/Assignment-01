@@ -1,0 +1,68 @@
+.newsletter-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter-title {
+    margin: 0px;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.newsletter-description {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(14, 14, 14, 0.7);
+    text-align: center;
+}
+
+/* parent styling */
+.newsletter-parent {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    background-color: #C6E4D6;
+    padding: 50px 175px;
+    border-radius: 24px;
+}
+
+.final-message {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(14, 14, 14, 0.7);
+}
+/* email input section */
+.newsletter-user-interaction-holder{
+    display: flex;
+    width: 80%;
+    margin-top: 24px;
+}
+.email-field {
+
+    border-radius: 8px 0 0 8px; /* Round only the left corners */
+    width: 100%;
+    padding: 12px 26px;
+    border: 1px solid white;
+
+
+}
+
+.subscribe-button {
+
+    border-radius: 0 8px 8px 0; /* Round only the right corners */
+    background-color: #006A50;
+    color: white;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    border: 1px solid #006A50;
+    padding: 10px 20px;
+
+}
