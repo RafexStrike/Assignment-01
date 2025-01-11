@@ -1,8 +1,9 @@
 /* Global styles:সকলের জন্য প্রযোজ্য  */
 body {
     margin: 10px 160px;
+    background-color: rgba(241, 241, 243, 1);
   }
 
- body> *{
+ /* body> *{
   margin-bottom: 80px;
-}
+} */

@@ -21,6 +21,7 @@ nav button{
     align-items: center;
     padding: 60px 120px;
     border-radius: 24px;
+    margin-bottom: 80px; /*added later after removing the margin from : global-styles --> body*{}*/
 
 }
 .hero-content{

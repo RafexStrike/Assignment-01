@@ -1,0 +1,26 @@
+.pillars-heading{
+    padding-bottom: 32px;
+}
+
+.pillar-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 80px;
+}
+
+.pillar-cards-holder1, .pillar-cards-holder2, .pillar-cards-holder3, .pillar-cards-holder4{
+    width: 200px;
+    height: 220px;
+    background-color: white;
+    border: 1px solid #D5D6D8;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.pillar-description1,
+.pillar-description2,
+.pillar-description3,
+.pillar-description4{
+    color: rgba(14, 14, 14, 0.7)
+}
