@@ -1,0 +1,84 @@
+.donate-title {
+    margin: 0;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.donate-description {
+    text-align: center;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.about-donate {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 14px;
+}
+
+/* main parent styling starts */
+.donate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+/* button styling */
+.donate-amount {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+}
+
+.donate-amount button {
+    padding: 24px;
+    font-size: 1.5rem;
+    /* প্রতি rem সমান ১৬ পিক্সেল  */
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: white;
+
+
+}
+
+.donate-amount button:hover {
+    background-color: #C6E4D6;
+    transform: scale(1.05);
+    /*enlarge on hover */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /*adds shadow */
+
+}
+
+.donate-amount-input-field input {
+    padding:12px  280px ;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    /* color: rgba(14, 14, 14, 0.1); */
+}
+
+.donate-now-btn{
+    background-color: #006A50;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-bottom: 80px;
+
+}
